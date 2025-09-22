@@ -1,0 +1,11 @@
+
+
+.desktopStartPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    border: 4px solid black;
+}

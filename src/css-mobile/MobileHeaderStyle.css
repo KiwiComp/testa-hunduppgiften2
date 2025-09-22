@@ -1,0 +1,29 @@
+
+
+.mobileHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: aqua;
+    border: 4px solid black;
+}
+
+
+.dropdown {
+        padding: 1rem;
+    background-color: blue;
+}
+
+
+
+.dropDownMenuStartPage.visible {
+
+    background-color: blue;
+}
+
+.dropDownMenuStartPage.hidden {
+    display: none;
+}

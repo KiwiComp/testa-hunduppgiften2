@@ -1,0 +1,155 @@
+
+
+.mobileStartPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%;
+    width: 100%; */
+    background-color: antiquewhite;
+    border: 4px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.mobileStartPage p,
+.mobileStartPage h1 {
+    color: blue;
+    margin-top: 2rem;
+}
+
+.mobileDisplayAllDogs {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.mobileDisplaySingleDog {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.725);
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.18), inset 0 4px 10px 2px rgba(185,172,149,0.20);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+.mobileDogImgContainer {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    overflow: hidden;          /* klipper bilden i formen */
+    position: relative;
+}
+
+.mobileDogImgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;         /* ser till att bilden fyller utan att bli skev */
+    display: block;            /* tar bort extra vit marginal */
+}
+
+.mobileDogInfoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobileOverlaySelectedDog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.608);
+    height: 100%;
+    width: 100%;
+}
+
+.mobileOverlayWindowSelectedDog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.mobileSelectedDogContainer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    gap: 1rem;
+    margin-top: 3rem;   
+}
+
+.mobileSelectedDogInfoContainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* gap: 4rem; */
+    /* width: 300px;
+    height: 300px; */
+    background-color: rgb(217, 217, 217);
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.mobileSelectedDogImgContainer {
+    border: 1px solid black;
+    border-radius: 1rem;
+    overflow: hidden;          /* klipper bilden i formen */
+    position: relative;
+}
+
+.mobileSelectedDogImgContainer img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;         /* ser till att bilden fyller utan att bli skev */
+    display: block;            /* tar bort extra vit marginal */
+}
+
+.mobileSelectedDogInfoContainer p {
+    margin: 0;
+    padding: 0.3rem;
+}

@@ -1,0 +1,15 @@
+
+
+.desktopHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: brown;
+}
+
+.desktopRightHeader {
+    display: flex;
+    gap: 1.5rem;
+}
